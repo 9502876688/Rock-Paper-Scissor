@@ -22,7 +22,7 @@ let score=JSON.parse( localStorage.getItem('score'));
 
             let result='';
 
-            if(palayerMove==='Scissors'){
+            if(palayerMove==='scissors'){
                  if (compguess==='rock'){
                     result='You Loss';
                  }else if(compguess==='paper'){
